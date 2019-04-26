@@ -1,2 +1,2 @@
 # MoongoseDB-Scraping
-MoongoseDB Scraping homework
+MongoseDB Scraping homework
