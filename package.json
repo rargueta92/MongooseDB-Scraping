@@ -1,7 +1,7 @@
 {
-  "name": "moongosedb-scraping",
+  "name": "mongosedb-scraping",
   "version": "1.0.0",
-  "description": "mongooseDB",
+  "description": "mongoosedb",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,16 +10,20 @@
     "type": "git",
     "url": "git+https://github.com/rargueta92/MoongoseDB-Scraping.git"
   },
-  "author": "",
+  "author": "Rudy",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/rargueta92/MoongoseDB-Scraping/issues"
   },
   "homepage": "https://github.com/rargueta92/MoongoseDB-Scraping#readme",
   "dependencies": {
+    "axios": "^0.18.0",
     "cheerio": "^1.0.0-rc.3",
     "express": "^4.16.4",
     "express-handlebars": "^3.0.2",
-    "mongoose": "^5.5.4"
+    "method-override": "^3.0.0",
+    "mongoose": "^5.5.5",
+    "morgan": "^1.9.1",
+    "request": "^2.88.0"
   }
 }
